@@ -2,8 +2,8 @@ use raylib::prelude::*;
 
 fn main() {
   let (mut rl, thread) = raylib::init()
-    .size()
-    .title()
+    .size(640, 480)
+    .title("Hello, World")
     .vsync()
     .build();
 
